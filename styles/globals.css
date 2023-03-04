@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .heroBtn {
+        @apply text-sm text-gray-500 rounded-full border
+         border-[#242424] px-4 md:px-6 py-1 tracking-widest transition-all
+          hover:border-[#F7AB0A] hover:text-[#F7AB0A]
+    }
+    .contactIc {
+        @apply sm:h-10 sm:w-10 h-8 w-8 text-[#F7AB0A]
+    }
+    .contactInput{
+        @apply bg-slate-400/10 xsm:py-4 py-2 px-3 sm:px-6 outline-none border-b border-slate-400/10 
+        hover:border-[#F7AB0A] text-sm focus:border-[#F7AB0A] placeholder-gray-500
+        focus:text-[#F7AB0A] text-gray-500 transition-all duration-200
+    }
+}
